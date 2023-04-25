@@ -42,7 +42,7 @@ gem "tzinfo-data"
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-gem 'better_errors', '~> 2.9', '>= 2.9.1'
+
 
 gem "bulma-rails", "~> 0.9.4"
 
@@ -69,6 +69,10 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
   gem 'guard'
+
+  gem 'guard-livereload', '~> 2.5', require: false
+
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
 
 end
 
