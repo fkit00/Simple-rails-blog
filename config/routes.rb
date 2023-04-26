@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   resources :posts
-
+# im going hunting within posts and calling the root  index
   root "posts#index"
 
 end
