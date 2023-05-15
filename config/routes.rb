@@ -3,7 +3,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-  resources :posts
+  resources :posts do 
+    resources :comments
+    #we need this for nested things
+  end
 # im going hunting within posts and calling the root  index
   root "posts#index"
 
