@@ -1,4 +1,4 @@
-#Simple blog with comments 
+# Simple blog with comments 
 
 Learning points 
 - Rails is constantly becoming out of date - a resource from three, four, five years ago will be no help, and the way the code is written will constantly be changing- but with not great documentation 
